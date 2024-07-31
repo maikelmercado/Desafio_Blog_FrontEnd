@@ -54,12 +54,14 @@ body {
     margin-top: 0px;
     width: 100%;
     column-count: 2;
+    text-align: justify;
    
 }
 .main__populares{
     width: 100%;
     
     column-count: 3;
+    text-align: justify;
    
 
 }
@@ -72,7 +74,9 @@ body {
 }
 
 
-
+.card{
+    
+}
 
 .card_main{  
     margin-bottom: 1rem;
@@ -88,10 +92,15 @@ body {
     margin-bottom: 1rem;
     padding: 1rem;
     display:inline-block;
+    
 
+}
+.card--small img{
+    border-radius: 5%;
 }
 .card__main--content{
     margin-left: 1rem;
+    
     
 }
 
